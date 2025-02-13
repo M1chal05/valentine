@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Borel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-color: hotpink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    width: 90%;
+    margin-top: 1em;
+}
+
+h1{
+    text-align: center;
+    font-size: 1.5rem;
+    width: 80%;
+    margin-top: 1em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-top: 1em;
+    line-height: 1.6;
+}
+
+button{
+    width: 50%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding-top: .5em;
+    margin-top: .5em;
+    background-color: rgb(118, 30, 30);
+}
+
+a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: hotpink;
+}
